@@ -39,10 +39,15 @@ h1 {
   display: flex;
   justify-content: space-around;
   color: hsl(229, 23%, 23%);
-  font-weight: 700;
+  /* font-weight: 700; */
   border-top: solid 1px hsl(0, 10%, 88%);
   margin-top: 1rem;
 }
+
+p::first-line{
+  font-weight: 700;
+}
+
 
 span {
   font-weight: 100;
